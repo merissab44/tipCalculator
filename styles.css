@@ -1,0 +1,89 @@
+body{
+    background-color: white;
+    font-family: 'Helvetica';
+    font-size: medium;
+    line-height: 2em;
+    color: white;
+    background-color: rgb(49, 113, 209);
+}
+
+h1{
+    text-align: center;
+}
+#total{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#total-bill{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#total-tip-label{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+
+#display{
+    border: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#split-tip-label{
+    border: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#bill-label{
+    font-size: large;
+    text-indent: 15px;
+}
+
+#bill{
+    display: flex;
+    flex-direction: column;
+    padding: .8em;
+    width: 200px;
+    border: 1px solid;
+    box-shadow: 5px 5px rgb(252, 200, 132);
+}
+#tip{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#tip-label{
+    font-size: large;
+    text-indent: 15px;
+}
+
+#tip-input{
+    display: flex;
+    flex-direction: column;
+    padding: .8em;
+    width: 200px;
+    border: 1px solid;
+    box-shadow: 5px 5px rgb(252, 200, 132);
+}
+
+#people{
+    display: flex;
+    flex-direction: column;
+    padding: .8em;
+    width: 200px;
+    border: 1px solid;
+    box-shadow: 5px 5px rgb(252, 200, 132);
+}
+
+#people-label{
+    font-size: large;
+    text-indent: 15px;
+}
